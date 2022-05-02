@@ -1,0 +1,232 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #000000;
+}
+:root {
+  --section-color: #2f303a;
+}
+img {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /*outline: 2px solid tomato;*/
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header {
+  background-color: #ffffff;
+  --color-text-header: #212121;
+  --color-text-contact: #757575;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-logo-head {
+  color: #000000;
+}
+.header-nav {
+  margin-left: 93px;
+}
+.header-nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  display: flex;
+}
+.header-nav-list :hover,
+.header-nav-list :focus {
+  color: #2196f3;
+}
+.header-nav-list :not(:last-child) {
+  margin-right: 50px;
+}
+.header-nav-list-st {
+  color: var(--color-text-header);
+}
+.header-nav-list-port {
+  color: var(--color-text-header);
+}
+.header-nav-list-cont {
+  color: var(--color-text-header);
+}
+
+.header-contaсt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-left: auto;
+  display: flex;
+}
+.header-contaсt :hover,
+.header-contaсt :focus {
+  color: #2196f3;
+}
+.header-contaсt-mail {
+  color: var(--color-text-contact);
+}
+.header-contaсt-tel {
+  color: var(--color-text-contact);
+  margin-left: 50px;
+}
+.portfolio-menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.menu-list-all :hover,
+.menu-list-website :hover,
+.menu-list-design :hover,
+.menu-list-app :hover,
+.menu-list-marketing :hover,
+.menu-list-all :focus,
+.menu-list-website :focus,
+.menu-list-design :focus,
+.menu-list-app :focus,
+.menu-list-marketing :focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.menu-list {
+  --text-color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.menu-list-title:not(:last-child) {
+  margin-right: 12px;
+}
+.menu-list-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 6px 22px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  margin-top: 50px;
+}
+.portfolio-item {
+  flex-basis: calc(100% / 3-30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-list-description {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+.portfolio-list-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 5px;
+}
+.portfolio-list-paragraph {
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background: var(--section-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-head {
+  color: #ffffff;
+}
+.footer-contakts-list :hover,
+.footer-contakts-list :focus {
+  color: #2196f3;
+}
+.footer-contakts-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-contakts-list-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-contakts-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contakts-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contakts-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
