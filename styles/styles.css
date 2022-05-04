@@ -103,13 +103,26 @@ button {
 .header-contaсt :hover,
 .header-contaсt :focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 .header-contaсt-mail {
   color: var(--color-text-contact);
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  fill: var(--color-text-contact);
 }
 .header-contaсt-tel {
   color: var(--color-text-contact);
-  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  fill: var(--color-text-contact);
+}
+.header-contaсt-mail-icon {
+  margin-right: 10px;
+}
+.header-contaсt-tel-icon {
+  margin-right: 10px;
 }
 .main-section-header {
   background: var(--section-color);
@@ -156,6 +169,10 @@ button {
   cursor: pointer;
   margin: auto;
 }
+.main-section-header-button:hover,
+.main-section-header-button:focus {
+  background: #2196f3;
+}
 .soft-skils-about {
   background: #ffffff;
   padding-top: 94px;
@@ -190,6 +207,9 @@ button {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .soft-skils-icon {
   margin: 0 auto;
